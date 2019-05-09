@@ -4,7 +4,8 @@ class searchForm extends Component {
     
     searchText(e){
         e.preventDefault();
-        console.log("Submitted");
+        var text = this.title;
+        console.log();
     };
 
     render() {
